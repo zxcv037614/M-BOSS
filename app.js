@@ -94,7 +94,7 @@ bot.on('message', function(event) {
                         console.log(err);
                     }
 
-                    event.reply({'type': 'text', 'text': row.name + ' 血盟認證完成！'});
+                    event.reply({'type': 'text', 'text': row.kikiing + ' 血盟認證完成！'});
                 })
             });
         });
