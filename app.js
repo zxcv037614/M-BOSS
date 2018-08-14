@@ -15,8 +15,9 @@ var mysql = require("mysql");
 //如果需要主動提醒的話，需要有 Message push API 的權限
 //可以申請 Developer Trial 的話免費的也有 Message push API 權限，但有限制好友數量
 var bot = linebot({
-    channelId: 'Line Channel ID',
-    channelSecret: 'Line Channel Secret',
+    channelId: '1600598542',
+    channelSecret: '098986e6dc2d3b92819b7b246100519b
+',
     channelAccessToken: 'Line Channel Acccess Token'
 });
 
