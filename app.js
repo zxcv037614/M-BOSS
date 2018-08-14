@@ -100,7 +100,7 @@ bot.on('message', function(event) {
         });
     }
 
-    if (text == 'mboss' || text == '出寶小幫手') {
+    if (text == 'mboss' || text == 'MBOSS小幫手') {
         authorize(sourceId, event, helpBoss);
         return;
     }
@@ -267,11 +267,11 @@ app.use(function(err, req, res, next) {
 
 function helpBoss(event, clans) {
     var clan = clans[0];
-    var message = "歡迎使用吃王小幫手！\n\n";
+    var message = "歡迎使用MBOSS小幫手！\n\n";
 
-    message += "目前綁定伺服器：" + clan.server + "\n";
-    message += "目前綁定血盟：" + clan.name + "\n";
-    message += "作者：命運女神-兔盟-孟宗竹" + "\n";
+    message += "韓服13-6 하딘 06：" + clan.server + "\n";
+    message += "kikiing：" + clan.name + "\n";
+    message += "作者：說出來嚇死你" + "\n";
     if (clan.alert_time) {
         message += "目前提醒功能：開啟(提前 "+clan.alert_time+" 分鐘提醒)\n";
     } else {
