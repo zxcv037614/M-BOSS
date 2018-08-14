@@ -16,8 +16,7 @@ var mysql = require("mysql");
 //可以申請 Developer Trial 的話免費的也有 Message push API 權限，但有限制好友數量
 var bot = linebot({
     channelId: '1600598542',
-    channelSecret: '098986e6dc2d3b92819b7b246100519b
-',
+    channelSecret: '098986e6dc2d3b92819b7b246100519b',
     channelAccessToken: 'Line Channel Acccess Token'
 });
 
