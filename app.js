@@ -100,7 +100,7 @@ bot.on('message', function(event) {
         });
     }
 
-    if (text == 'mboss' || text == '吃王小幫手') {
+    if (text == 'mboss' || text == '出寶小幫手') {
         authorize(sourceId, event, helpBoss);
         return;
     }
